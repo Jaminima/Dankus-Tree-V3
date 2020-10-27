@@ -8,6 +8,7 @@ namespace DankusTreeV3
 {
     static class Program
     {
+        public static Random rnd = new Random();
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
@@ -16,7 +17,7 @@ namespace DankusTreeV3
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new DankusTreeV3());
+            Application.Run(new DankusTree());
         }
     }
 }
